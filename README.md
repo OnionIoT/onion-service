@@ -1,2 +1,2 @@
-# onion-client-c
-onion client written in c
+# Onion Service
+Service for communicating with Onion Cloud
