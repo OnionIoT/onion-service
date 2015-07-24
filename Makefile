@@ -1,5 +1,7 @@
 obj-m += onion_service.o
 
-onion_service: onion_service.c
+all:
+		make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 
-all: onion_service
+clean:
+		make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
