@@ -1,5 +1,5 @@
-obj-m += onion_client.o
+obj-m += onion_service.o
 
-onion_client: onion_client.c
+onion_service: onion_service.c
 
-all: onion_client
+all: onion_service
